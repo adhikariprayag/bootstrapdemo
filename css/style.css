@@ -1,0 +1,216 @@
+@media (min-width: 0px) and (max-width: 200px) {
+  body {
+    text-wrap: wrap;
+  }
+}
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-body-tertiary {
+  background-color: #FF2276 !important;
+  font-weight: 900 !important;
+  font-size: 14px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header .navbar li a {
+  color: #FFF !important;
+}
+header .navbar li .active {
+  color: black !important;
+}
+@media (min-width: 0px) and (max-width: 720px) {
+  header .navbar-brand img {
+    width: 70% !important;
+  }
+}
+header .navbar a:hover {
+  color: #000 !important;
+}
+header .navbar .navbar-nav .nav-link.active {
+  background-color: transparent;
+  /* Set the background color to transparent */
+  color: inherit;
+  /* Use the default text color */
+}
+
+.main {
+  min-height: 90vh;
+  background: linear-gradient(rgba(3, 3, 3, 0.8), rgba(3, 3, 3, 0.8)), url(https://sangalotech.com/html/22/assets/img/home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main h2 {
+  color: #FF2276 !important;
+  font-weight: 900 !important;
+  font-size: 45px;
+}
+@media (min-width: 0px) and (max-width: 720px) {
+  .main h2 {
+    font-size: 22px;
+  }
+}
+.main p {
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.det {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.services {
+  background-color: #EDEDED;
+}
+.services .card {
+  padding: 20px 0px;
+}
+.services .card .fs-1 {
+  font-size: 75px !important;
+  color: #FF2276;
+}
+.services .card .card-title {
+  font-weight: bold;
+}
+
+.clients {
+  min-height: 60vh;
+  background: linear-gradient(rgba(3, 3, 3, 0.8), rgba(3, 3, 3, 0.8)), url(https://sangalotech.com/html/22/assets/img/clients.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.clients .owl-prev,
+.clients .owl-next {
+  position: absolute;
+  top: 30%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.1529411765) !important;
+  height: 30px;
+  width: 30px;
+  transition: 0.3s;
+}
+@media (min-width: 0px) and (max-width: 720px) {
+  .clients .owl-prev,
+  .clients .owl-next {
+    top: 100%;
+  }
+}
+.clients .owl-prev:hover,
+.clients .owl-next:hover {
+  background-color: #FF2276 !important;
+}
+.clients .owl-prev {
+  left: -50px;
+}
+@media (min-width: 0px) and (max-width: 720px) {
+  .clients .owl-prev {
+    left: 20%;
+  }
+}
+.clients .owl-next {
+  right: -50px;
+}
+@media (min-width: 0px) and (max-width: 720px) {
+  .clients .owl-next {
+    right: 20%;
+  }
+}
+.clients .container {
+  height: 100%;
+}
+.clients .c-card {
+  border: 1px solid #FF2276;
+}
+.clients .c-card img {
+  width: 100%;
+  height: 120px;
+}
+@media (min-width: 0px) and (max-width: 720px) {
+  .clients .c-card img {
+    width: 75%;
+  }
+}
+.clients .c-card:hover {
+  border: 1px solid #EDEDED;
+}
+
+.portfolio .port-img img {
+  opacity: 0.8;
+  box-shadow: 0 0 0 2px white, 0px 0px 2px 3px black;
+  transition: 0.5s ease;
+}
+.portfolio .port-img img:hover {
+  opacity: 1;
+}
+
+.quote {
+  min-height: 30vh;
+  background: linear-gradient(rgba(3, 3, 3, 0.8), rgba(3, 3, 3, 0.8)), url(https://sangalotech.com/html/22/assets/img/testimonial.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.quote p {
+  width: 25%;
+  margin: auto;
+}
+
+.title-1 {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 5px 0px;
+}
+
+.team img {
+  border-radius: 50%;
+  width: 50%;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.team .box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: center;
+      align-items: center;
+  gap: 10px;
+}
+.team .card {
+  border: none !important;
+  text-align: center;
+}
+
+.location {
+  min-height: 60vh;
+  background: linear-gradient(rgba(3, 3, 3, 0.8), rgba(3, 3, 3, 0.8)), url(https://sangalotech.com/html/22/assets/img/clients.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
